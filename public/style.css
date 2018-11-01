@@ -1,0 +1,43 @@
+html {
+  background-color: rgb(184, 184, 184);
+}
+
+#quote-box {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  background-color:  rgb(184, 184, 184);
+  margin-top: 120px;
+}
+
+.right-btn {
+  float: right;
+}
+
+.btn:hover {
+  background-color: gray;
+}
+
+/*enter*/
+.fade-enter {
+  opacity: 0;
+  z-index: inherit;
+}
+
+.fade-enter .fade-enter-active {
+  opacity: 0;
+  transition: opacity 300ms linear;
+}
+
+/*exit*/
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit .fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms linear;
+}
+
+.fade-exit-done{
+  opacity: 0;
+}
